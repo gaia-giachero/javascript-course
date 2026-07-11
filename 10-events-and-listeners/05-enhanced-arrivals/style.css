@@ -1,0 +1,81 @@
+/* Reset base */
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Contenitore tabella */
+#tabellone-voli {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #0b1b2b; 
+  color: #e6f1ff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header */
+#tabellone-voli thead {
+  background-color: #132f4c;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#tabellone-voli th {
+  padding: 12px;
+  font-size: 14px;
+  text-align: left;
+  border-bottom: 2px solid #1f4d7a;
+}
+
+/* Righe */
+#tabellone-voli td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Effetto zebra */
+#tabellone-voli tbody tr:nth-child(even) {
+  background-color: #10263d;
+}
+
+/* Hover */
+#tabellone-voli tbody tr:hover {
+  background-color: #1a3b5d;
+  transition: 0.2s;
+}
+
+/* Colonna orario in evidenza */
+#tabellone-voli td:first-child {
+  font-weight: bold;
+  color: #4fc3f7;
+}
+
+/* Stato colori */
+.stato {
+  font-weight: bold;
+}
+
+.onTime {
+  color: #4caf50;
+}
+
+.delayed {
+  color: #ff9800;
+}
+
+.arrived {
+  color: #2196f3;
+}
+
+.departing {
+  color: #9c27b0;
+}
+
+.open{
+    display: table-row;
+}
+
+.close{
+    display: none;
+}
