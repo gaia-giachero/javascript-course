@@ -1,0 +1,14 @@
+div{
+    margin: 1em;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+button{
+    background-color: green;
+    padding: 0.5em;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 1px solid black;
+}
